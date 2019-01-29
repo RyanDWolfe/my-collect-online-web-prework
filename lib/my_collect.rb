@@ -7,5 +7,4 @@ def my_collect(array)
 
 end
 
-# array = array.join(", ")
 # array = array.upcase
