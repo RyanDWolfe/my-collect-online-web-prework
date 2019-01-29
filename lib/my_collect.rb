@@ -8,4 +8,4 @@ def my_collect(array)
 ary
 end
 
-# array = array.upcase
+
