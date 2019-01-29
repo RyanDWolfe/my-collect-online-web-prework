@@ -1,8 +1,8 @@
 def my_collect(array)
   i = 0
   result = while i < array.length
-    a = yield array.join(", ")
-    a.upcase
+    array = yield array.join(", ")
+    array.upcase
     i += 1
   end
   result
