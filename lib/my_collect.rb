@@ -1,8 +1,8 @@
 def my_collect(array)
   i = 0
   while i < array.length
-    yield array.join(", ")
-    yield array.split(",").first
+    yield array.join(", ").split(",").first
+    #yield array.split(",").first
     i += 1
   end
 
